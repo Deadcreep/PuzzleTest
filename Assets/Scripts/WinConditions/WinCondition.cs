@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum WinStatus
 {
@@ -11,7 +6,6 @@ public enum WinStatus
 	Fail,
 	InProgress
 }
-
 
 public abstract class WinCondition : MonoBehaviour
 {
